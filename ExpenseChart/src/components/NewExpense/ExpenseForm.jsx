@@ -57,6 +57,7 @@ function ExpenseForm(props) {
     <form onSubmit={submitHandler}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
+          <div className="title"><h1>Welcome to ExpenseTracker</h1></div>
           <label>title</label>
           <input type="text" value={enteredTitle} onChange={titleChangeHandler} />
         </div>
